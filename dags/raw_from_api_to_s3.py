@@ -4,8 +4,8 @@ import duckdb
 import pendulum
 from airflow import DAG
 from airflow.models import Variable
-from airflow.operators import EmptyOperator
-from airflow.operators import PythonOperator
+from airflow.operators.empty import EmptyOperator
+from airflow.operators.python import PythonOperator
 
 
 OWNER = "kirill"
@@ -26,7 +26,7 @@ SHORT_DESCRIPTION = "SHORT DESCRIPTION"
 
 args = {
     "owner": OWNER,
-    "start_date": pendulum.datetime(year=2026, month=4, day=29),
+    "start_date": pendulum.datetime(year=2026, month=5, day=1),
     "catchup": True, 
     "retries": 3,
     "retry_delay": pendulum.duration(hours=1)
