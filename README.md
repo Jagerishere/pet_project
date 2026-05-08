@@ -28,12 +28,3 @@
 -   **Источник данных**: [USGS Earthquake API](https://earthquake.usgs.gov/fdsnws/event/1/)
 
 ---
-
-## 🚀 Быстрый старт
-
-Убедитесь, что на вашем компьютере установлены Docker и Docker Compose.
-
-1.  **Клонируйте репозиторий:**
-    ```bash
-    git clone https://github.com/Jagerishere/pet_project.git
-    cd pet_project
