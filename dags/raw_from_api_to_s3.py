@@ -9,7 +9,7 @@ from airflow.operators.python import PythonOperator
 
 
 OWNER = "kirill"
-DAG_ID = "row_from_api_to_s3"
+DAG_ID = "raw_from_api_to_s3"
 
 LAYER = "raw"
 SOURCE = "earthquake"
@@ -26,7 +26,7 @@ SHORT_DESCRIPTION = "SHORT DESCRIPTION"
 
 args = {
     "owner": OWNER,
-    "start_date": pendulum.datetime(year=2026, month=5, day=1),
+    "start_date": pendulum.datetime(year=2026, month=5, day=1, tz="Europe/Moscow"),
     "catchup": True, 
     "retries": 3,
     "retry_delay": pendulum.duration(hours=1)
