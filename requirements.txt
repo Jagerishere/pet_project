@@ -1,0 +1,6 @@
+apache-airflow==2.10.5
+duckdb==1.5.2
+metabase==0.60.3.5
+minio==RELEASE.2025-02-18T16-25-55Z
+redis==7.2-bookworm
+postgres==13
