@@ -29,4 +29,7 @@
 
 ---
 
+##  Data Architecture
+<img width="2166" height="721" alt="Untitled" src="https://github.com/user-attachments/assets/6af5cce6-1266-4e20-9f6f-80d8e5e7707f" />
+
 
