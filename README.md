@@ -41,4 +41,9 @@ pip install --upgrade pip && \
 pip install -r requirements.txt
 ```
 
+## Разворачивание инфраструктуры
+```
+docker-compose up -d
+```
+
 
